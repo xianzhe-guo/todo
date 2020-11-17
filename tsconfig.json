@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "commonjs",
+        "lib": ["es6", "es2016.array.include", "es2017.object"],
+        "outDir": "dist/js",
+        "rootDir": "src",
+        "allowJs": true,
+        "jsx": "react-native",
+        "noEmit": true,
+        "isolatedModules": true,
+        "strict": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFilenames": true
+    },
+    "include": ["src/**/*"],
+    "exclude": ["src/types/*.ts", "node_modules", ".vscode"]
+}
