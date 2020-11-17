@@ -33,7 +33,7 @@ const todoSchema: Schema = new Schema(
             required: false,
         },
 
-        category: String {
+        category: {
             type: String,
             required: false,
         },

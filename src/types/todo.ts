@@ -4,7 +4,7 @@
      name: string
      description: string
      status: boolean
-     date: date
+     date: Date
      tag: string
      priority: number
      category: string
