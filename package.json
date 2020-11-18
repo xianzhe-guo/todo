@@ -1,9 +1,9 @@
 {
   "name": "todo",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/src/app.js",
   "repository": "https://github.com/xianzhe-guo/todo.git",
-  "author": "timidthyg <tim.guo@alumni.ubc.ca>",
+  "author": "xianzhe-guo <tim.guo53@gmail.com>",
   "license": "MIT",
   "devDependencies": {
     "@types/cors": "^2.8.8",
@@ -18,10 +18,11 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "mongoose": "^5.10.11",
+    "tslint": "^6.1.3",
     "typescript": "^4.0.5"
   },
   "scripts": {
     "build": "tsc",
-    "start": "concurrently \"tsc -w\" \"nodemon dist/js/app.js\""
+    "start": "concurrently \"tsc -w\" \"nodemon dist/app.js\""
   }
 }
